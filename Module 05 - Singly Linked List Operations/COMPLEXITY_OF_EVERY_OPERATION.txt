@@ -1,0 +1,19 @@
+1) Insertion: 
+at Head - O(1)
+at Tail - O(N) - without tail tracking
+        - O(1) - with tail tracking
+at any position - O(N)
+
+2) Deletion:
+at Head - O(1)
+at Tail - O(N)
+at any position - O(N)
+
+3) Printing:
+Forward - O(N)
+Backward - O(N) - using recursion
+
+4) Input - O(N) - with tail tracking
+         - O(N*N) - without tail tracking
+
+5) Sorting: O(N*N) - using selection sort
