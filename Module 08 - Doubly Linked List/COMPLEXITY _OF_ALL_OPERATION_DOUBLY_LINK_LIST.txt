@@ -1,0 +1,10 @@
+1) Insertion: 
+at Head - O(1)
+at Tail - O(1) - with tail tracking
+at any position - O(N)
+
+2) Deletion:
+at Head - O(1)
+at Tail - O(1)
+at any position - O(N)
+
