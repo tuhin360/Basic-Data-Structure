@@ -4,37 +4,37 @@ using namespace std;
 class myStack
 {
 public:
-    vector<int> v;
+    list<int> l;
 
     void push(int val)
     {
-        v.push_back(val);
+        l.push_back(val);
     }
 
     void pop()
     {
-        v.pop_back();
+        l.pop_back();
     }
 
     int top()
     {
-        return v.back();
+        return l.back();
     }
 
     int size()
     {
-        return v.size();
+        return l.size();
     }
 
     bool empty()
     {
-        return v.empty();
+        return l.empty();
     }
 };
 
 int main()
 {
-    // input
+    // input 
     myStack st;
     int n;
     cin >> n;
@@ -45,7 +45,7 @@ int main()
         st.push(x);
     }
 
-    // output (LIFO)
+    // output 
     while (!st.empty())
     {
         cout << st.top() << endl;
@@ -65,8 +65,6 @@ int main()
 // 30
 // 20
 // 10
-
-
 
 
 // Protita operation O(1) hocce
