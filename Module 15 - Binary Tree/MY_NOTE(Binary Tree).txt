@@ -1,0 +1,60 @@
+🌳 Tree Data Structure কী?
+
+Tree হলো একটি non-linear data structure, যেখানে data গুলো parent-child relation এ থাকে।
+
+- Top node = Root
+- Child node = নিচের node
+- Leaf node = যার কোনো child নেই
+
+🤔 কেন Tree শিখবো?
+- Linear structure (array, linked list) সব problem solve করতে পারে না
+- Hierarchical data (level-wise) handle করতে দরকার
+- Efficient searching & sorting (BST হলে)
+- Real-world complex data represent করা সহজ
+
+🌍 Real Life Application
+- File System (folder → subfolder → file)
+- Organization hierarchy (CEO → Manager → Employee)
+- DOM Tree (HTML structure)
+- AI & Game decision tree
+- Database indexing (B-Tree)
+
+🌲 Binary Tree কী?
+
+Binary Tree হলো এমন tree যেখানে প্রতিটি node এর max 2টা child থাকতে পারে।
+
+-Left child
+-Right child
+
+🔁 Tree Traversal (Node visit করার পদ্ধতি)
+
+1. Preorder (Root → Left → Right)
+
+👉 আগে root, তারপর left subtree, তারপর right subtree
+
+Example:
+
+A
+/ \
+B  C
+
+Output: A B C
+
+2. Inorder (Left → Root → Right)
+
+👉 আগে left, তারপর root, তারপর right
+
+Output: B A C
+
+👉 Binary Search Tree হলে sorted order দেয়
+
+3. Postorder (Left → Right → Root)
+
+👉 আগে left, তারপর right, শেষে root
+
+Output: B C A
+
+🧠 Shortcut মনে রাখার জন্য
+Pre = Root আগে
+In = Root মাঝে
+Post = Root শেষে
