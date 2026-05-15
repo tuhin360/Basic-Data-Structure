@@ -54,7 +54,6 @@ int main()
     tail->prev = a;
 
     delete_at_tail(head, tail);
-
     print_forward(head);
 
     return 0;

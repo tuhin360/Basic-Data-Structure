@@ -32,10 +32,10 @@ int main()
     // Delete elements from a specific position
     // l.erase(next(l.begin(), 2), next(l.begin(), 5));
 
-    // Replace all the value with replace_value.Not under a list STL.
+    // Replace all the value(40) with replace_value(500).Not under a list STL.
     replace(l.begin(), l.end(), 40, 500);
 
-    // Find the value V. Not under a list STL
+    // Find the value V(200). Not under a list STL
     auto it = find(l.begin(), l.end(), 200);
     if(it == l.end())
     {
